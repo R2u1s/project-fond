@@ -1,7 +1,7 @@
 # Фонд «Друзья»
 Верстка страницы фонда "Друзья" [Перейти на сайт](https://r2u1s.github.io/project-fond/) 
 
-![screenshot](https://github.com/R2u1s/react-burger/blob/main/images/screen.JPG)
+![screenshot](https://github.com/R2u1s/react-burger/blob/main/src/images/screen.JPG)
 ## Технологии
 * HTML, CSS, JS
 #### Проект

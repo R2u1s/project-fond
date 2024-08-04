@@ -1,10 +1,12 @@
-import Carousel from './utils/carousel.js';
-import ScreenSizeTracker from './utils/ScreenSizeTracker.js';
-import toggleSubmenu from './utils/toggleSubmenu.js';
-import Blog from './blocks/blog.js';
-import Header from './blocks/header.js';
-import initPartners from './blocks/partners.js';
-import initDonationSection from './blocks/donation-section.js';
+import './pages/index.css';
+
+import Carousel from './scripts/utils/carousel.js';
+import ScreenSizeTracker from './scripts/utils/ScreenSizeTracker.js';
+import toggleSubmenu from './scripts/utils/toggleSubmenu.js';
+import Blog from './scripts/blocks/blog.js';
+import Header from './scripts/blocks/header.js';
+import initPartners from './scripts/blocks/partners.js';
+import initDonationSection from './scripts/blocks/donation-section.js';
 
 const heroEl = document.querySelector('.hero-banner');
 const heroCarousel = new Carousel(heroEl);
