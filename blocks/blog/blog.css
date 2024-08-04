@@ -1,0 +1,15 @@
+.blog {
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .blog {
+    padding: 0 64px;
+  }
+}
+
+@media (max-width: 576px) {
+  .blog {
+    padding: 0 16px;
+  }
+}

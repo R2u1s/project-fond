@@ -1,0 +1,9 @@
+.feedback {
+  padding: 0;
+}
+
+@media (min-width: 577px) {
+  .feedback {
+    margin-top: 91px;
+  }
+}

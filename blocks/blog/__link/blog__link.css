@@ -1,0 +1,12 @@
+.blog__link {
+  margin: 56px auto 0;
+
+  max-width: 328px;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .blog__link {
+    margin-top: 24px;
+  }
+}

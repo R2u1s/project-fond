@@ -1,0 +1,12 @@
+.programs__blocks {
+  list-style: none;
+  margin: 56px 0 0;
+  padding: 0;
+}
+
+
+@media (max-width: 768px) {
+  .programs__blocks {
+    margin: 28px 0 0;
+  }
+}

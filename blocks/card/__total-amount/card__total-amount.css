@@ -1,0 +1,5 @@
+.card__total-amount {
+  padding: 0;
+  margin: 0;
+  font: 400 18px/26px var(--font-normal);
+}

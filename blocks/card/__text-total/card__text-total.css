@@ -1,0 +1,6 @@
+.card__text-total {
+  padding: 0;
+  margin: 0;
+  font: 400 14px/19px var(--font-normal);
+  color: var(--black-45);
+}

@@ -1,0 +1,4 @@
+.subscription__button {
+  padding: 0 29px;
+  grid-area: button;
+}

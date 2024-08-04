@@ -1,0 +1,9 @@
+.subscription__input {
+  width: 100%;
+  grid-area: input;
+}
+
+.subscription__input::placeholder {
+  font: 400 16px/20px "SF Compact Rounded", var(--font-normal);
+  color: var(--black-50);
+}

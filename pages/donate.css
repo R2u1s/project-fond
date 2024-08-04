@@ -1,0 +1,234 @@
+@import url("../vendor/fonts.css");
+@import url("../vendor/normalize.css");
+@import url("../vendor/variables.css");
+
+/* page block */
+@import url("../blocks/page/page.css");
+
+/* close-button block */
+@import url("../blocks/close-button/close-button.css");
+
+/* active-el block */
+@import url("../blocks/active-el/active-el.css");
+
+/* button block */
+@import url("../blocks/button/button.css");
+@import url("../blocks/button/_type/button_type_rounded.css");
+@import url("../blocks/button/_type/button_type_gray.css");
+@import url("../blocks/button/_type/button_type_transparent.css");
+@import url("../blocks/button/_type/button_type_yellow.css");
+@import url("../blocks/button/_type/button_type_blue.css");
+@import url("../blocks/button/_type/button_type_arrow.css");
+
+/* input block */
+@import url("../blocks/input/input.css");
+@import url("../blocks/input/_type/input_type_round.css");
+@import url("../blocks/input/_type/input_type_white.css");
+
+/* page-block block */
+@import url("../blocks/page-block/page-block.css");
+@import url("../blocks/page-block/_type/page-block_type_partial.css");
+@import url("../blocks/page-block/_type/page-block_type_top-indent.css");
+
+/* checkbox block */
+@import url("../blocks/checkbox/checkbox.css");
+@import url("../blocks/checkbox-label/checkbox-label.css");
+@import url("../blocks/checkbox-label/__link/checkbox-label__link.css");
+
+/* header block */
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__hamburger/header__hamburger.css");
+@import url("../blocks/header/__hamburger/_active/header__hamburger_active.css");
+@import url("../blocks/header/__fund/header__fund.css");
+@import url("../blocks/header/__fund/_hidden/header__fund_hidden.css");
+@import url("../blocks/header/__fund-list/header__fund-list.css");
+@import url("../blocks/header/__fund-item/header__fund-item.css");
+@import url("../blocks/header/__fund-link/header__fund-link.css");
+@import url("../blocks/header/__fund-subtitle/header__fund-subtitle.css");
+@import url("../blocks/header/__fund-title/header__fund-title.css");
+@import url("../blocks/header/__help/header__help.css");
+@import url("../blocks/header/__langs/header__langs.css");
+@import url("../blocks/header/__lang/header__lang.css");
+@import url("../blocks/header/__logo/header__logo.css");
+@import url("../blocks/header/__menu/header__menu.css");
+@import url("../blocks/header/__menu/_active/header__menu_active.css");
+@import url("../blocks/header/__nav-list/header__nav-list.css");
+@import url("../blocks/header/__nav-item/header__nav-item.css");
+@import url("../blocks/header/__nav-link/header__nav-link.css");
+@import url("../blocks/header/__nav/header__nav.css");
+@import url("../blocks/header/__programs/header__programs.css");
+@import url("../blocks/header/__programs-list/header__programs-list.css");
+@import url("../blocks/header/__programs/_hidden/header__programs_hidden.css");
+@import url("../blocks/header/__programs-button/header__programs-button.css");
+@import url("../blocks/header/__programs-icon/header__programs-icon.css");
+@import url("../blocks/header/__programs-item/header__programs-item.css");
+@import url("../blocks/header/__programs-wrap/header__programs-wrap.css");
+@import url("../blocks/header/__programs-wrap/_type/header__programs-wrap_type_procharity.css");
+@import url("../blocks/header/__programs-wrap/_type/header__programs-wrap_type_profteam.css");
+@import url("../blocks/header/__programs-wrap/_type/header__programs-wrap_type_school.css");
+@import url("../blocks/header/__programs-subtitle/header__programs-subtitle.css");
+@import url("../blocks/header/__programs-title/header__programs-title.css");
+@import url("../blocks/header/__socials/header__socials.css");
+@import url("../blocks/header/__social/header__social.css");
+@import url("../blocks/header/__social-link/header__social-link.css");
+@import url("../blocks/header/__social-link/_type/header__social-link_type_telegram.css");
+@import url("../blocks/header/__social-link/_type/header__social-link_type_vk.css");
+@import url("../blocks/header/__lang-btn/header__lang-btn.css");
+@import url("../blocks/header/__lang-btn/_active/header__lang-btn_active.css");
+
+/* main block */
+@import url("../blocks/main/main.css");
+
+/* donation block */
+@import url("../blocks/donation-section/donation-section.css");
+@import url("../blocks/donation-section/__title/donation-section__title.css");
+@import url("../blocks/donation-section/__title-italics/donation-section__title-italics.css");
+@import url("../blocks/donation/donation.css");
+@import url("../blocks/donation/__agreement/donation__agreement.css");
+@import url("../blocks/donation/__agreement/_opened/donation__agreement_opened.css");
+@import url("../blocks/donation/__section/donation__section.css");
+@import url("../blocks/donation/__section/_min-gap/donation__section_min-gap.css");
+@import url("../blocks/donation/__subtitle/donation__subtitle.css");
+@import url("../blocks/donation/__frequency-wrapper/donation__frequency-wrapper.css");
+@import url("../blocks/donation/__frequency/donation__frequency.css");
+@import url("../blocks/donation/__frequency/_input/donation__frequency_input.css");
+@import url("../blocks/donation/__frequency/_label/donation__frequency_label.css");
+@import url("../blocks/donation/__describe-monthlypay/donation__describe-monthlypay.css");
+@import url("../blocks/donation/__describe-monthlypay/_opened/donation__describe-monthlypay_opened.css");
+@import url("../blocks/donation/__amount-wrapper/donation__amount-wrapper.css");
+@import url("../blocks/donation/__amount/donation__amount.css");
+@import url("../blocks/donation/__amount/_whole-width/donation__amount_whole-width.css");
+@import url("../blocks/donation/__amount-input/donation__amount-input.css");
+@import url("../blocks/donation/__other-amount-wrapper/donation__other-amount-wrapper.css");
+@import url("../blocks/donation/__other-amount/donation__other-amount.css");
+@import url("../blocks/donation/__ruble/donation__ruble.css");
+@import url("../blocks/donation/__buttons/donation__buttons.css");
+@import url("../blocks/donation/__button/donation__button.css");
+@import url("../blocks/donation/__button/_active/donation__button_active.css");
+@import url("../blocks/donation/__button/_type/donation__button_type_applepay.css");
+@import url("../blocks/donation/__button/_type/donation__button_type_card.css");
+@import url("../blocks/donation/__button/_type/donation__button_type_googlepay.css");
+@import url("../blocks/donation/__card/donation__card.css");
+@import url("../blocks/donation/__card/_hidden/donation__card_hidden.css");
+@import url("../blocks/donation/__card-inputs/donation__card-inputs.css");
+@import url("../blocks/donation/__card-input/donation__card-input.css");
+@import url("../blocks/donation/__support-btn/donation__support-btn.css");
+@import url("../blocks/card/card.css");
+@import url("../blocks/card/__amount/card__amount.css");
+@import url("../blocks/card/__cvv-input/card__cvv-input.css");
+@import url("../blocks/card/__cvv-label/card__cvv-label.css");
+@import url("../blocks/card/__cvv-text/card__cvv-text.css");
+@import url("../blocks/card/__cvv/card__cvv.css");
+@import url("../blocks/card/__expiration-input/card__expiration-input.css");
+@import url("../blocks/card/__expiration/card__expiration.css");
+@import url("../blocks/card/__holder/card__holder.css");
+@import url("../blocks/card/__number/card__number.css");
+@import url("../blocks/card/__text-total/card__text-total.css");
+@import url("../blocks/card/__total-amount/card__total-amount.css");
+
+/* feedback block */
+@import url("../blocks/feedback/feedback.css");
+@import url("../blocks/feedback/__content/feedback__content.css");
+@import url("../blocks/feedback/__title/feedback__title.css");
+@import url("../blocks/feedback/__email/feedback__email.css");
+@import url("../blocks/feedback/__telephone/feedback__telephone.css");
+
+/* statistics block */
+@import url("../blocks/statistics/statistics.css");
+@import url("../blocks/statistics/__cells/statistics__cells.css");
+@import url("../blocks/statistics/__cell/statistics__cell.css");
+@import url("../blocks/statistics/__heading/statistics__heading.css");
+@import url("../blocks/statistics/__paragraph/statistics__paragraph.css");
+@import url("../blocks/statistics/__font-bold/statistics__font-bold.css");
+
+/* more-help block */
+@import url("../blocks/more-help/more-help.css");
+@import url("../blocks/more-help/__about/more-help__about.css");
+@import url("../blocks/more-help/__article/more-help__article.css");
+@import url("../blocks/more-help/__article/_reverse/more-help__article_reverse.css");
+@import url("../blocks/more-help/__article-title/more-help__article-title.css");
+@import url("../blocks/more-help/__button/more-help__button.css");
+@import url("../blocks/more-help/__item/more-help__item.css");
+@import url("../blocks/more-help/__link/more-help__link.css");
+@import url("../blocks/more-help/__list/more-help__list.css");
+@import url("../blocks/more-help/__title-oblique/more-help__title-oblique.css");
+@import url("../blocks/more-help/__title/more-help__title.css");
+@import url("../blocks/more-help/__img/more-help__img.css");
+@import url("../blocks/more-help/__links/more-help__links.css");
+@import url("../blocks/more-help/__mail/more-help__mail.css");
+@import url("../blocks/more-help/__logo/more-help__logo.css");
+
+/* write-us block */
+@import url("../blocks/write-us/write-us.css");
+@import url("../blocks/write-us/__title/write-us__title.css");
+@import url("../blocks/write-us/__paragraph/write-us__paragraph.css");
+@import url("../blocks/write-us/__form/write-us__form.css");
+@import url("../blocks/write-us/__wrapper/write-us__wrapper.css");
+@import url("../blocks/write-us/__input/write-us__input.css");
+@import url("../blocks/write-us/__textarea/write-us__textarea.css");
+@import url("../blocks/write-us/__user-agreement/write-us__user-agreement.css");
+@import url("../blocks/write-us/__button-submit/write-us__button-submit.css");
+
+/* subscription block */
+@import url("../blocks/subscription/subscription.css");
+@import url("../blocks/subscription/__reset/subscription__reset.css");
+@import url("../blocks/subscription/__title/subscription__title.css");
+@import url("../blocks/subscription/__subtitle/subscription__subtitle.css");
+@import url("../blocks/subscription/__form/subscription__form.css");
+@import url("../blocks/subscription/__input/subscription__input.css");
+@import url("../blocks/subscription/__button/subscription__button.css");
+
+/* footer block */
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/_main/footer_main.css");
+@import url("../blocks/footer/__nav/footer__nav.css");
+@import url("../blocks/footer/__menu/footer__menu.css");
+@import url("../blocks/footer/__menu-item/footer__menu-item.css");
+@import url("../blocks/footer/__menu-link/footer__menu-link.css");
+@import url("../blocks/footer/__menu-link/_donate/footer__menu-link_donate.css");
+@import url("../blocks/footer/__menu-button/footer__menu-button.css");
+@import url("../blocks/footer/__submenu/footer__submenu.css");
+@import url("../blocks/footer/__submenu-item/footer__submenu-item.css");
+@import url("../blocks/footer/__submenu-link/footer__submenu-link.css");
+@import url("../blocks/footer/__contacts-container/footer__contacts-container.css");
+@import url("../blocks/footer/__contacts/footer__contacts.css");
+@import url("../blocks/footer/__contact/footer__contact.css");
+@import url("../blocks/footer/__contact-title/footer__contact-title.css");
+@import url("../blocks/footer/__contact-value/footer__contact-value.css");
+@import url("../blocks/footer/__socials/footer__socials.css");
+@import url("../blocks/footer/__social/footer__social.css");
+@import url("../blocks/footer/__social-link/footer__social-link.css");
+@import url("../blocks/footer/__social-link/_type/footer__social-link_type_telegram.css");
+@import url("../blocks/footer/__social-link/_type/footer__social-link_type_vk.css");
+@import url("../blocks/footer/__law/footer__law.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");
+@import url("../blocks/footer/__copyright-age/footer__copyright-age.css");
+@import url("../blocks/footer/__terms-of-use/footer__terms-of-use.css");
+@import url("../blocks/footer/__duns-logo/footer__duns-logo.css");
+
+/* logo block */
+@import url("../blocks/logo/logo.css");
+@import url("../blocks/logo/_type/logo_type_footer.css");
+@import url("../blocks/logo/_type/logo_type_header.css");
+@import url("../blocks/logo/__title/logo__title.css");
+@import url("../blocks/logo/__title-foundation/logo__title-foundation.css");
+
+/* submenu block */
+@import url("../blocks/submenu/submenu.css");
+@import url("../blocks/submenu/_active/submenu_active.css");
+@import url("../blocks/submenu/_type/submenu_type_program.css");
+
+/* fixed-menu block */
+@import url("../blocks/fixed-menu/fixed-menu.css");
+
+/* fixed-submenu block */
+@import url("../blocks/fixed-submenu/fixed-submenu.css");
+
+/* popup-write-us block */
+@import url("../blocks/popup-write-us/popup-write-us.css");
+@import url("../blocks/popup-write-us/_opened/popup-write-us_opened.css");
+@import url("../blocks/popup-write-us/_state/popup-write-us_state_uninited.css");
+@import url("../blocks/popup-write-us/__container/popup-write-us__container.css");
+@import url("../blocks/popup-write-us/__button-close/popup-write-us__button-close.css");
+@import url("../blocks/popup-write-us/__title/popup-write-us__title.css");
+@import url("../blocks/popup-write-us/__paragraph/popup-write-us__paragraph.css");

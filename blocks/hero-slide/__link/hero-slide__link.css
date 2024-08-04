@@ -1,0 +1,18 @@
+.hero-slide__link {
+  margin-top: 56px;
+
+  border-radius: 48px;
+  width: 231px;
+}
+
+@media (max-width: 576px) {
+  .hero-slide__link {
+    margin-top: 32px;
+    width: 200px;
+  }
+}
+
+.hero-slide__link:hover,
+.hero-slide__link:focus {
+  box-shadow: 0 0 50px var(--black-100-10p);
+}

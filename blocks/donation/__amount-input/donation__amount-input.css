@@ -1,0 +1,4 @@
+.donation__amount-input {
+  grid-area: 1 / 1 / 1 / 1;
+  display: none;
+}
